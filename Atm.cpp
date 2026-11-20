@@ -20,15 +20,6 @@ tries++;
   if(tries==3){
   cout<<"Locked Atm Try Again After 10 Minutes"<<endl;
   }
-    if(overtry==1){
-  cout<<"Locked Atm Try After 15 Minutes "<<endl;}
-  else if(overtry==2){
-  cout<<"Locked Atm Try Again After 30 Minutes "<<endl;}
-  else if(overtry==3){
-  cout<<"Locked Atm Try Again After 1 hour"<<endl;
-  }
-  else{
-   cout<<"Has Been Withdrawn The card Go Bank To Check Information"<<endl;}
 int numchoice;
 double initialbalance =550000;
 double withdrawbalance;
